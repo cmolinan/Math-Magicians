@@ -1,27 +1,77 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --widthBtn: 260px;
+  --heightBtn: 80px;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Verdana', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.AllCalculator {
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.AllButtons {
+  background-color: #e0e0e0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastrow #b0 {
+  flex: 2.01;
+}
+
+.btnWhite {
+  background-color: #e0e0e0;
+  flex: 1;
+  height: var(--heightBtn);
+  border-color: #d1d1d1;
+  border-width: 0.2px;
+}
+
+.btnWhite:hover {
+  background-color: #d1d1d1;
+}
+
+.btnOrange {
+  background-color: #f5913e;
+  height: var(--heightBtn);
+  flex: 1;
+  border-color: white;
+  border-width: 0.2px;
+}
+
+.btnOrange:hover {
+  background-color: #fa8a2e;
+}
+
+input {
+  background-color: #858693;
+  height: var(--heightBtn);
+  color: white;
+  font-size: 22px;
+  text-align: right;
+  border-color: white;
+  border-width: 0.2px;
+}
+
+input:hover {
+  background-color: #a6a6ad;
 }
