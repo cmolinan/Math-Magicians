@@ -1,14 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians Project - Components
+# Math Magicians Project - Events
 
-This is the second Milestone of a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+This is the third Milestone of a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
     -Make simple calculations.
     -Read a random math-related quote.
 
 ## Built With
 
-- React JS
+- React JS (components and events)
 - JSX
 - JavaScript
 - Webpack
