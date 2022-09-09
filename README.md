@@ -1,14 +1,14 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+n![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians Project - Components
+# Math Magicians Project - Refactor with Hooks
 
-This is the third Milestone of a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+This is the fourth Milestone of a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
     -Make simple calculations.
     -Read a random math-related quote.
 
 ## Built With
 
-- React JS (components, events, states)
+- React JS (components, events, states and hooks)
 - JSX
 - JavaScript
 - Webpack
