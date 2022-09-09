@@ -34,7 +34,7 @@
   flex-direction: row;
 }
 
-.lastrow #b0 {
+.lastrow .btn0 {
   flex: 2.01;
 }
 
