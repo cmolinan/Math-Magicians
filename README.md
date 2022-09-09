@@ -2,13 +2,13 @@
 
 # Math Magicians Project - Components
 
-This is the second Milestone of a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+This is the third Milestone of a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
     -Make simple calculations.
     -Read a random math-related quote.
 
 ## Built With
 
-- React JS
+- React JS (components, events, states)
 - JSX
 - JavaScript
 - Webpack
