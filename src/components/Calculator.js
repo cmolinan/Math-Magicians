@@ -1,9 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, SetState] = useState({});
+
+  useEffect(() => {
+    document.getElementById('input').value = '0';
+  }, []);
 
   const onClickHandler = (e) => {
     // Calculate with state params
