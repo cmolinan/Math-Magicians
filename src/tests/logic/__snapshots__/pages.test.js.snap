@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the Home, Quote and Calculator pages render correctly Calculator page renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="calculator-container"
+  >
+    <h4>
+      Lets do some math!
+    </h4>
+    <div
+      class="AllCalculator"
+    >
+      <input
+        id="input"
+        readonly=""
+        type="text"
+      />
+      <div
+        class="allButtons"
+      >
+        <div
+          class="row"
+        >
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            AC
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            +/-
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            %
+          </button>
+          <button
+            class="btnOrange"
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            7
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            8
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            9
+          </button>
+          <button
+            class="btnOrange"
+            type="button"
+          >
+            x
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            4
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            5
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            6
+          </button>
+          <button
+            class="btnOrange"
+            type="button"
+          >
+            -
+          </button>
+        </div>
+        <div
+          class="row"
+        >
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="btnOrange"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <div
+          class="lastrow"
+        >
+          <button
+            class="btnWhite btn0"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="btnWhite"
+            type="button"
+          >
+            .
+          </button>
+          <button
+            class="btnOrange"
+            type="button"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Testing the Home, Quote and Calculator pages render correctly Home page renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="home-container"
+  >
+    <h2>
+      Welcome to our page!
+    </h2>
+    <p>
+      Lorem ipsum dolor siye jo sit amet consectetur, adipisicing elit. Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga. Fuga, sed labore odit voluptatem porro sunt saepe aliquid quaerat doloremque incidunt autem.
+    </p>
+    <p>
+      Lorem ipsum dolor siye jo sit amet consectetur, adipisicing elit. Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga. Fuga, sed labore odit voluptatem porro sunt saepe aliquid quaerat doloremque incidunt autem.
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Testing the Home, Quote and Calculator pages render correctly Quote page renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="quote-div"
+  >
+    <p>
+      Mathematics is not about numbers, computations, or diagrams. It is about understanding. --William Paul Thurston.
+    </p>
+  </div>
+</DocumentFragment>
+`;
