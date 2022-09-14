@@ -1,0 +1,63 @@
+.AllCalculator {
+  margin: 10% auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.AllButtons {
+  background-color: #e0e0e0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.lastrow .btn0 {
+  flex: 2.01;
+}
+
+.btnWhite {
+  background-color: #e0e0e0;
+  flex: 1;
+  height: var(--heightBtn);
+  border-color: #d1d1d1;
+  border-width: 0.2px;
+}
+
+.btnWhite:hover {
+  background-color: #d1d1d1;
+}
+
+.btnOrange {
+  background-color: #f5913e;
+  height: var(--heightBtn);
+  flex: 1;
+  border-color: white;
+  border-width: 0.2px;
+}
+
+.btnOrange:hover {
+  background-color: #fa8a2e;
+}
+
+input {
+  background-color: #858693;
+  height: var(--heightBtn);
+  color: white;
+  font-size: 22px;
+  text-align: right;
+  border-color: white;
+  border-width: 0.2px;
+  padding-right: 5px;
+}
+
+input:hover {
+  background-color: #a6a6ad;
+}

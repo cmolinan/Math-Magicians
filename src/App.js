@@ -1,14 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Calculator from './components/Calculator';
+import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 
-const App = () => {
-  const root = ReactDOM.createRoot(document.getElementById('Calculator'));
-  root.render(
-    <React.StrictMode>
-      <Calculator />
-    </React.StrictMode>,
-  );
-};
+import Header from './components/Header';
+import Home from './pages/HomePage';
+import Calculator from './pages/CalculatorPage';
+import Quotes from './pages/QuotePage';
+import './App.css';
+
+const WebApp = () => (
+  <div>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quotes" element={<Quotes />} />
+    </Routes>
+  </div>
+);
+
+const App = () => (
+  ReactDOM.createRoot(document.getElementById('Calculator'))
+    .render(
+      <React.StrictMode>
+        <Router>
+          <WebApp />
+        </Router>
+      </React.StrictMode>,
+    )
+);
 
 export default App;
