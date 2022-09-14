@@ -23,9 +23,16 @@ html {
   background-position: center center;
 }
 
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 768px) {
   #Calculator {
     margin: auto;
     width: 85%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  #Calculator {
+    margin: auto;
+    width: 95%;
   }
 }

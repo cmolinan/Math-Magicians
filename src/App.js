@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 
-import Header from './components/Header';
+import Header from './pages/Header';
 import Home from './pages/HomePage';
 import Calculator from './pages/CalculatorPage';
 import Quotes from './pages/QuotePage';
