@@ -31,6 +31,7 @@ It is a Single Page App (SPA) that allows users to:
 ## Author
 - Carlos Molina
   GitHub: https://github.com/cmolinan
+- Matias Aguirre: https://github.com/lokurasRlz
 
 ## 🤝 Contributing
 
