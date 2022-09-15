@@ -15,7 +15,11 @@ It is a Single Page App (SPA) that allows users to:
 - Webpack
 - GitFlow
 - Jest
-  
+
+## Live Demo
+
+[Math Magicians (Netlify)](https://preeminent-pixie-5c04e3.netlify.app/)
+
 ## Getting Started
 
 - To get a local copy up, clone the repo like this: 
