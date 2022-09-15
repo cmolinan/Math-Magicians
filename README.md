@@ -1,8 +1,8 @@
 n![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians Project - Full Website
+# Math Magicians Project - Testing
 
-This is the fifth Milestone of a website for all fans of mathematics. 
+This is the sixth Milestone of a website for all fans of mathematics. 
 It is a Single Page App (SPA) that allows users to:
     -Make simple calculations.
     -Read a math-related quote.
@@ -14,6 +14,7 @@ It is a Single Page App (SPA) that allows users to:
 - JavaScript
 - Webpack
 - GitFlow
+- Jest
   
 ## Getting Started
 
