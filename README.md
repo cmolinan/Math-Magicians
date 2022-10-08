@@ -18,7 +18,7 @@ It is a Single Page App (SPA) that allows users to:
 
 ## Live Demo
 
-[Math Magicians (Netlify)](https://preeminent-pixie-5c04e3.netlify.app/)
+[Math Magicians (Netlify)](https://math-magicians-project-cmn.netlify.app/calculator)
 
 ## Getting Started
 
